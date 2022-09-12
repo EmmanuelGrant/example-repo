@@ -138,7 +138,7 @@ public class Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         String username = jTextField1.getText();
         String password = jPasswordField1.getText();
-        if (username.equals("Admin") && password.equals("password")){
+        if (username.equals("") && password.equals("")){
             Homepage obj = new Homepage();
             obj.setVisible(true);
             dispose();        
